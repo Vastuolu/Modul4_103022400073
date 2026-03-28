@@ -16,5 +16,9 @@ public class Program
         {
             Console.WriteLine("Kode Paket: " + gettedKodePaket);
         }
+
+        Console.WriteLine("####Soal 2");
+        MesinKopi mesinKopi = new MesinKopi();
+        mesinKopi.Jalankan();
     }
 }
